@@ -1,0 +1,11 @@
+.hero{
+    min-height: 900px;
+    background-color: $black;
+    &--banner{
+        margin-top: 7rem;
+        text-align: center;
+        img{
+           max-width: 100%;
+        }
+    }
+}

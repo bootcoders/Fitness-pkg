@@ -40,9 +40,10 @@ ul {
 }
 
 body {
-    font-family: $font-family;
+    font-family: $font-Roboto;
     font-size: $font-size;
     line-height: $line-height;
     font-weight: $font-400;
-    background-color: $gray-300;
+    background-color: $white;
+    color: $black;
 }

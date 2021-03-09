@@ -1,0 +1,71 @@
+.video-intro {
+    position: relative;
+    padding-bottom: 170px;
+    .man-1 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .man-2 {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -220px;
+        width:350px;
+        img {
+            width: 100%;
+        }
+    }
+    &--heading {
+        h3 {
+            font-size: 2rem;
+            font-weight: $font-700;
+            color: $red;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+        }
+    }
+    &--desc {
+        padding-left: 4.8rem;
+        position: relative;
+
+        p {
+            font-size: 24px;
+            line-height: 1.4;
+            margin-bottom: 0;
+        }
+        &::before {
+            content: "";
+            width: 24px;
+            height: 150px;
+            display: block;
+            background-image: url("../images/border-line.png");
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+
+    .video-intro-box {
+        padding: 30px;
+        margin-top: 4rem;
+        position: relative;
+
+        iframe {
+            height: 650px;
+            position: relative;
+            z-index: 2;
+        }
+        &::before {
+            position: absolute;
+            content: "";
+            width: 550px;
+            height: 390px;
+            display: block;
+            background-color: $red;
+            z-index: 1;
+            top: 0;
+            left: 0;
+        }
+    }
+}
